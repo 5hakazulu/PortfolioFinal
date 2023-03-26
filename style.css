@@ -220,6 +220,8 @@ h1 {
     margin-bottom: 20px;
 }
 
+/* PORTFOLIO SECTION  */
+
 .control ul li {
     list-style: none;
     background-color: #284B63;
@@ -228,6 +230,13 @@ h1 {
     display: inline-block;
     cursor: pointer;
     letter-spacing: 2px;
+}
+
+.port-image {
+    height: 280px;
+    /* width: auto; */
+    /* overflow: hidden; */
+    object-fit: cover;
 }
 
 .item {
@@ -281,6 +290,12 @@ h1 {
     background-color: #353535;
 }
 
+.blog-img {
+    height: 250px;
+    width: auto;
+    object-fit: cover;
+}
+
 /* CONTACT SECTION */
 .circle {
     background-color: #353535;
@@ -313,4 +328,12 @@ h1 {
 footer {
     background-color: #353535;
     color: #D9D9D9;
+}
+
+/* MODIAL STYLING  */
+
+.pop-up-image {
+    height: 500px;
+    width: auto;
+    object-fit: cover;
 }
