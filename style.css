@@ -5,11 +5,15 @@
     /* background-color: rgb(300, 300, 300); */
 }
 
+
+
+/* NAVBAR SECTION */
 .navbar {
     background-color: #353535;
     -webkit-box-shadow: 0px 21px 33px 0px rgba(0, 0, 0, 0.38);
     -moz-box-shadow: 0px 21px 33px 0px rgba(0, 0, 0, 0.38);
     box-shadow: 0px 21px 33px 0px rgba(0, 0, 0, 0.38);
+    /* position: sticky; */
 }
 
 .nav-link {
@@ -42,6 +46,7 @@
     height: 95vh;
 }
 
+
 .main h3 {
     font-size: 4.4rem;
     font-weight: 700;
@@ -54,8 +59,9 @@
     text-transform: uppercase;
     line-height: 1;
     border-bottom: 3px solid #3C6E71;
-    width: 50%;
+    width: auto;
     color: #353535;
+
 }
 
 .main .bt1 {
@@ -91,20 +97,14 @@
     color: #FFFFFF;
 }
 
-.main .button_holder {
-    position: relative;
-    left: 8rem;
-}
+
 
 .main .title_card {
     background-color: #D9D9D9;
     border-radius: 10px;
 }
 
-.title_card_text {
-    position: relative;
-    left: 8rem;
-}
+
 
 /* .about img {
     -webkit-box-shadow: 10px 10px 24px -7px rgba(0, 0, 0, 0.75);
