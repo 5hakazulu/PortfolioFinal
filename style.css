@@ -43,6 +43,25 @@ html,body
     text-decoration: none;
 }
 
+@media (max-width: 480px){
+    .navbar-brand {
+        font-size: .75rem;
+        font-weight: 800;
+        color: #ffffff;
+        cursor: pointer;
+        text-decoration: none;
+    }
+}
+@media (min-width:481px) and (max-width: 870px){
+    .navbar-brand {
+        font-size: 1rem;
+        font-weight: 800;
+        color: #ffffff;
+        cursor: pointer;
+        text-decoration: none;
+    }
+}
+
 /* main section */
 
 .main {
