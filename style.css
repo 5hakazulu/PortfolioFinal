@@ -401,8 +401,10 @@ footer {
 
 /* MODIAL STYLING  */
 
+
 .pop-up-image {
     height: 500px;
     width: auto;
+    
     object-fit: cover;
 }
